@@ -66,16 +66,16 @@
                 <h2>Informe o Alcance:</h2>
                 <input type="number" name="roteador" id="fabricante=roteador" required><br><br>
                 <h2>Informe a Frequência:</h2>
-                <input type="radio" name="resposta" value="sim"> 2.4GHz
-                <input type="radio" name="resposta" value="nao"> 5GHz
-                <input type="radio" name="resposta" value="ambos"> Ambos<br><br>
+                <input type="radio" name="resposta" value="sim" required> 2.4GHz
+                <input type="radio" name="resposta" value="nao" required> 5GHz
+                <input type="radio" name="resposta" value="ambos" required> Ambos<br><br>
                 <h2>Digite um valor:</h2>
                 <input type="text" onblur="GerarCódigoDeBarras(this)" required><br>
                 <svg id="codBarras"></svg> <br>
                 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
                 <input type="submit" value="Cadastrar"><br><br>
                 <input type="reset" value="Limpar Respostas"><br><br>
-                <a href="central.html"><span>Voltar</a></span>
+                <a href="Pagina Central de Cadastros.html"><span>Voltar</a></span>
             </div>
         </form>
     </body>
